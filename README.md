@@ -4,7 +4,7 @@ The most accurate decompilation of Roblox Studio's BuiltinPlugins and BuiltinSta
 
 ### Credits
 
-* [Oracle](https://discord.gg/prHW9TA4QW), most accurate decompiler in the planet and a really fast one, for decompiling the `luauc` (Luau Bytecode) files
+* [Oracle](https://discord.gg/prHW9TA4QW), most accurate decompiler on the planet and a really fast one, for decompiling the Bytecode
 
 ## 🚫 Problems
 
