@@ -1,0 +1,31 @@
+local l_script_FirstAncestor_0 = script:FindFirstAncestor("ControlsEmulator");
+local l_createStyleSheet_0 = require(l_script_FirstAncestor_0.Packages.Framework).Styling.createStyleSheet;
+local v2 = {
+    RightArrow = "rbxasset://studio_svg_textures/Shared/Navigation/Dark/Standard/ArrowRight.png", 
+    DownArrow = "rbxasset://studio_svg_textures/Shared/Navigation/Dark/Standard/ArrowDown.png", 
+    Color_Extended_Surface_Surface_0 = Color3.new(0.07059, 0.07059, 0.08235), 
+    Color_Extended_Surface_Surface_100 = Color3.new(0.09804, 0.10196, 0.12157), 
+    ControlInactiveColor = "$Gray60", 
+    ControlHoverColor = "$Gray50", 
+    ControlActiveBackgroundColor = Color3.fromHex("#D5D7DD"), 
+    ControlActiveColor = Color3.fromHex("#2BB1FF"), 
+    ColorPrimaryMain = Color3.fromHex("#008BDB"), 
+    ColorSecondaryMain = Color3.fromHex("#565656"), 
+    ContentDefault = Color3.fromHex("#5A5C63"), 
+    ControlActiveSecondaryColor = Color3.fromHex("#7E8395")
+};
+v2.HeaderBackgroundColor = v2.Color_Extended_Surface_Surface_0;
+v2.BlueprintBackgroundColor = v2.Color_Extended_Surface_Surface_0;
+v2.BlueprintArrowColor = v2.ContentDefault;
+v2.BlueprintLabelsColor = "$TextPrimary";
+v2.DividerColor = Color3.fromHex("#2F3139");
+v2.MappingLabelHover = Color3.fromHex("#646464");
+v2.MappingLabel = Color3.fromHex("#353535");
+v2.SeparatorColor = "$Gray100";
+v2.InfoTooltipBackgroundColor = "$Gray90";
+v2.PrimaryButtonBackgroundColor = "$PrimaryMain";
+v2.PrimaryButtonHoverBackgroundColor = "$PrimaryHoverBackground";
+v2.SecondaryButtonBackgroundColor = "$Gray70";
+v2.SecondaryButtonHoverBackgroundColor = "$Gray60";
+v2.ButtonTextColor = "$White";
+return l_createStyleSheet_0("ControlsEmulatorDarkTheme", {}, v2);

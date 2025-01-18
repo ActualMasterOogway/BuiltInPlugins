@@ -1,0 +1,28 @@
+local l_script_FirstAncestor_0 = script:FindFirstAncestor("CompositorDebugger");
+local l_StyleKey_0 = require(l_script_FirstAncestor_0.Packages.Framework).Style.StyleKey;
+return {
+    BorderColor = l_StyleKey_0.MainText, 
+    BorderWidth = 1, 
+    BackgroundColor = l_StyleKey_0.SubBackground2, 
+    GraphColors = {
+        number = {
+            l_StyleKey_0.DialogMainButton
+        }, 
+        Vector2 = {
+            Color3.new(0.75, 0, 0), 
+            Color3.new(0, 0.75, 0)
+        }, 
+        Vector3 = {
+            Color3.new(0.75, 0, 0), 
+            Color3.new(0, 0.75, 0), 
+            Color3.new(0, 0, 0.75)
+        }
+    }, 
+    Grid = {
+        AxisColor = l_StyleKey_0.MainText, 
+        GridColor = l_StyleKey_0.MainTextDisabled, 
+        Margin = 0.05
+    }, 
+    Padding = 15, 
+    ScaleWidth = 50
+};

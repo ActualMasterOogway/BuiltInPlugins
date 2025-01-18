@@ -1,0 +1,4 @@
+game:DefineFastFlag("AddPlayerIcon", false);
+return function() --[[ Line: 3 ]]
+    return game:GetFastFlag("AddPlayerIcon");
+end;

@@ -1,0 +1,9 @@
+game:DefineFastFlag("PathEditorRBXTelemetry", false);
+game:DefineFastFlag("PathEditorSurfaceGui", false);
+game:DefineFastFlag("PathEditorRotation", false);
+game:DefineFastFlag("PathEditorHierarchyValidCheckFixes", false);
+game:DefineFastFlag("PathEditorUsePerformantAPICalls", false);
+game:DefineFastFlag("PathEditorCustomBindings", false);
+game:DefineFastFlag("PathEditorPathClosedApiUpdate", false);
+game:DefineFastFlag("PathEditorRBXTelemetryFixes", false);
+return nil;

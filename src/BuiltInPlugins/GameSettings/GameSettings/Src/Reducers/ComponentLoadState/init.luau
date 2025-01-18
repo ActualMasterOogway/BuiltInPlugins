@@ -1,0 +1,10 @@
+local l_Parent_0 = script.Parent.Parent.Parent;
+local v1 = require(l_Parent_0.Packages.Cryo);
+return require(l_Parent_0.Packages.Rodux).createReducer({}, {
+    SetComponentLoadState = function(v2, v3) --[[ Line: 12 ]] --[[ Name: SetComponentLoadState ]]
+        -- upvalues: v1 (copy)
+        return v1.Dictionary.join(v2, {
+            [v3.componentName] = v3.loadState
+        });
+    end
+});

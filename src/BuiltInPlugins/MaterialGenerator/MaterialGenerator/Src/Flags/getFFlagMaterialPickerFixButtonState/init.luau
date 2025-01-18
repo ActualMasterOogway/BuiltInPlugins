@@ -1,0 +1,4 @@
+game:DefineFastFlag("MaterialPickerFixButtonState", false);
+return function() --[[ Line: 3 ]]
+    return game:GetFastFlag("MaterialPickerFixButtonState");
+end;

@@ -1,0 +1,21 @@
+return (table.freeze({
+    getMouseTarget = require(script.Parent.getMouseTarget), 
+    beginBoxSelect = require(script.Parent.beginBoxSelect), 
+    setHover = require(script.Parent.setHover), 
+    onExternalHover = require(script.Parent.onExternalHover), 
+    HoverEscapeDetector = require(script.Parent.HoverEscapeDetector), 
+    getSelectionBoxComponent = require(script.Parent.getSelectionBoxComponent), 
+    isExclusiveSelectable = require(script.Parent.isExclusiveSelectable), 
+    SelectionInfo = require(script.Parent.SelectionInfo), 
+    BoundsChangedTracker = require(script.Parent.BoundsChangedTracker), 
+    endBoxSelect = require(script.Parent.endBoxSelect), 
+    dispatchWorldClick = require(script.Parent.dispatchWorldClick), 
+    FreeformDragger = require(script.Parent.FreeformDragger), 
+    getNextSelectables = require(script.Parent.getNextSelectables), 
+    getSelectableWithCache = require(script.Parent.getSelectableWithCache), 
+    setActivePoint = require(script.Parent.setActivePoint), 
+    addUndoWaypoint = require(script.Parent.addUndoWaypoint), 
+    updateBoxSelect = require(script.Parent.updateBoxSelect), 
+    TransformHandlesImplementation = require(script.Parent.TransformHandlesImplementation), 
+    ExtrudeHandlesImplementation = require(script.Parent.ExtrudeHandlesImplementation)
+}));

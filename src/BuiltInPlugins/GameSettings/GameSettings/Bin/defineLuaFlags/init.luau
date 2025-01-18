@@ -1,0 +1,10 @@
+game:DefineFastFlag("GameSettingsFixNumberInputRow", false);
+game:DefineFastFlag("MoveSpatialVoice", false);
+game:DefineFastFlag("GameSettingsExperienceGuidelines", false);
+game:SetFlagVersion("PaidAccessInFiat", 2);
+game:DefineFastFlag("PaidAccessInFiat", false);
+game:DefineFastFlag("GameSettingsAddCreatorHubLinkToFooter", false);
+game:DefineFastString("GameSettingsCreatorHubManageExperienceLink", "https://create.roblox.com/dashboard/creations/experiences/{}/configure");
+game:DefineFastString("StudioGenreOverhaulExplainationLink", "https://devforum.roblox.com/t/testing-an-enhanced-discover-page-top-charts-and-new-sorts/2954676#genre-specific-sorts-4");
+game:DefineFastFlag("CU1320ExperienceGenre", false);
+return nil;

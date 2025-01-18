@@ -1,0 +1,10 @@
+game:DefineFastFlag("EnableConstraintToolGhostAssemblyFeature", false);
+game:DefineFastFlag("SimFlipConstraintTool", false);
+game:DefineFastFlag("SimFixConstraintSelection", false);
+game:DefineFastFlag("SimMultipleConstraintMode", false);
+game:DefineFastFlag("SimUseExistingAttachmentName", false);
+game:DefineFastFlag("SimPreserveOrientationOnFace", false);
+game:DefineFastFlag("SimPreserveFirstAttachmentOrientation", false);
+game:DefineFastFlag("SimConstraintToolRuntimeUndoFix", false);
+game:DefineFastFlag("SimTwoAttachmentFixOutputSpam", false);
+return nil;

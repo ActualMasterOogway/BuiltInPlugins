@@ -1,0 +1,22 @@
+return {
+    AccessoryUtil = require(script.AccessoryUtil), 
+    AssetTypeAttachmentInfo = require(script.AssetTypeAttachmentInfo), 
+    AvatarUtil = require(script.AvatarUtil), 
+    BundleImporter = require(script.BundleImporter), 
+    Constants = require(script.Constants), 
+    getActivePreviewTabs = require(script.getActivePreviewTabs), 
+    getDeformerToPartMap = require(script.getDeformerToPartMap), 
+    getModelFromBackend = require(script.getModelFromBackend), 
+    ItemCharacteristics = require(script.ItemCharacteristics), 
+    Mannequin = require(script.Mannequin), 
+    PreviewAvatar = require(script.PreviewAvatar), 
+    PreviewClothing = require(script.PreviewClothing), 
+    PreviewFolderManager = require(script.PreviewFolderManager), 
+    PreviewConstants = require(script.PreviewConstants), 
+    PreviewConstantsInterface = require(script.PreviewConstantsInterface), 
+    PreviewingInfo = require(script.PreviewingInfo), 
+    PreviewUtil = require(script.PreviewUtil), 
+    TransparencyUtil = require(script.TransparencyUtil), 
+    WrapUtil = require(script.WrapUtil), 
+    PreviewModelAsCharacter = require(script.PreviewModelAsCharacter)
+};

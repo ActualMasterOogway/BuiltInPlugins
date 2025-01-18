@@ -1,0 +1,1 @@
+{"ignoreUnknownInstances":true,"className":"LocalizationTable","properties":{"SourceLocaleId":"en-us","Contents":"[{\"key\":\"Studio.Framework.Example.Hello\",\"source\":\"{Name}\",\"values\":{\"en-us\":\"Hello, {Name}!\"}}]","SourceAssetId":-1,"DefinesCapabilities":false}}

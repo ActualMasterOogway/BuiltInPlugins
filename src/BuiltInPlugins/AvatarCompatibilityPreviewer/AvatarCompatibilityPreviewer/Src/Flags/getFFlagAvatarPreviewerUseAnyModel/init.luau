@@ -1,0 +1,4 @@
+game:DefineFastFlag("AvatarPreviewerUseAnyModel", false);
+return function() --[[ Line: 3 ]]
+    return game:GetFastFlag("AvatarPreviewerUseAnyModel");
+end;

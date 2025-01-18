@@ -1,0 +1,1 @@
+{"ignoreUnknownInstances":true,"className":"StringValue","properties":{"Value":"{\n  \"language\": {\n    \"mode\": \"strict\"\n  },\n  \"lint\": {\n    \"*\": \"enabled\"\n  }\n}\n","DefinesCapabilities":false,"SourceAssetId":-1}}

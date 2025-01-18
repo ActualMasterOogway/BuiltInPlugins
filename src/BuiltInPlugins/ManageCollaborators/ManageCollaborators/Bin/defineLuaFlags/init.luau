@@ -1,0 +1,9 @@
+game:DefineFastInt("TeamCreateMaxCollaborators", 200);
+game:DefineFastFlag("COLLAB2699FixSaveChangesLogic", false);
+game:DefineFastFlag("COLLAB2850_FixMcTooltips", false);
+game:DefineFastFlag("COLLAB4802_FixManageCollabLanguageBug", false);
+game:DefineFastFlag("StudioManageCollabWideBox2", false);
+game:DefineFastFlag("StudioManageCollabFixFocusError", false);
+game:DefineFastFlag("StudioManageCollabFixClearDoubleClick", false);
+game:DefineFastFlag("COLLAB7167ManageCollabHandleNilOwnerId", false);
+return nil;

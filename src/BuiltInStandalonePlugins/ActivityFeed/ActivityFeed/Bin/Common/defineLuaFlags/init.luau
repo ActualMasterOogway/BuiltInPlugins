@@ -1,0 +1,9 @@
+game:DefineFastInt("ActivityFeedEndpointFetchCount", 50);
+game:DefineFastInt("ActivityFeedBDISFetchSensitivity", 50);
+game:DefineFastInt("ActivityFeedBDISMinEvents", 10);
+game:DefineFastInt("ActivityFeedRefreshMs", 60000);
+game:DefineFastFlag("ActivityHistoryFeatureTelemetry", false);
+game:DefineFastFlag("COLLAB6856FixAHPublish", false);
+game:DefineFastFlag("FixActivityHistoryJSONParseError2", false);
+game:DefineFastFlag("EnableContentMaturityStringChanges", false);
+return nil;

@@ -1,0 +1,9 @@
+local l_Parent_0 = script.Parent.Parent.Parent;
+return require(l_Parent_0.Packages.Framework).Util.Action(script.Name, function(v1, v2) --[[ Line: 5 ]]
+    assert(type(v1) == "number", string.format("SetAssetOwnerName requires assetId to be a string, not %s", (type(v1))));
+    assert(type(v2) == "string", string.format("SetAssetOwnerName requires username to be a string, not %s", (type(v2))));
+    return {
+        assetId = v1, 
+        username = v2
+    };
+end);

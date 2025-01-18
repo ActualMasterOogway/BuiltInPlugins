@@ -1,0 +1,4 @@
+game:DefineFastFlag("LuaExplorerUseRDLColors", false);
+return function() --[[ Line: 3 ]]
+    return game:GetFastFlag("LuaExplorerUseRDLColors");
+end;
